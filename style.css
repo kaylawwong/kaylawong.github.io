@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #0F0F0F;    
+    color: white;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    padding: 24px 0;
+    position: sticky;
+    top: 0; /* sticks at top when scrolling */
+    z-index: 1000;
+}
+
+.nav-container {
+    width: 60%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAD0DE;
+    padding: 16px 32px;
+    border-radius: 100px;
+}
+
+.site-title {
+    font-size: 20px;
+    margin: 0;
+    color:#0F0F0F;
+}
+
+.nav-link {
+    margin-left: 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color:#0F0F0F;
+    font-weight: bold;
+}
+
+.hero-section{
+    padding-top: 264px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+}
+
+section {
+    padding-top: 24px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+
+.subsection-title {
+    margin-bottom: 24px;
+}
+
+.subsection-subheader {
+    margin-top: 0px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.line-section {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 32px;
+}
+
+.line {
+    width: 1px;
+    background-color: white;
+    margin-left: 24px;
+    margin-right: 32px;
+}
+
+.content {
+    flex: 1;
+}
+
+.last-section{
+    margin-bottom: 48px;
+}
+
+.contact {
+    border-radius: 24px 24px 0 0;
+    padding-top: 32px;
+    padding-bottom: 48px;
+    background-color: #FAD0DE;
+    color: black;
+}
