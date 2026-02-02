@@ -117,3 +117,14 @@ a {
     background-color: #FAD0DE;
     color: black;
 }
+
+.visualization-section {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+}
+
+.visualization-section svg {
+    display: block;
+    margin: 0 auto 48px auto;
+}
