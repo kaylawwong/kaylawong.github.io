@@ -110,6 +110,12 @@ a {
     margin-bottom: 48px;
 }
 
+.last-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .contact {
     border-radius: 24px 24px 0 0;
     padding-top: 32px;
