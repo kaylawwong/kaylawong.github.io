@@ -134,3 +134,9 @@ a {
     display: block;
     margin: 0 auto 48px auto;
 }
+
+#view, #view1a, #view1b, #view2, #view2a, #view2b, #view3, #view3a, #view4, #view4a {
+  width: 100%;     
+  height: 500px;    
+  margin-top: 24px;
+}
