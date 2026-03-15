@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayla Wong - MiniD3</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="nav-header">
+        <div class="nav-container">
+             <h1 class="site-title">
+                <a href="index.html" class="site-title" > kayla </a>
+            </h1>
+            <nav>
+                <a href="visualizations.html" class="nav-link">visualizations</a>
+                <a href="vegalite.html" class="nav-link">vegalite</a>
+                <a href="miniD3.html" class="nav-link">miniD3</a>
+            </nav>
+        </div>
+    </header>
+
+    <header class="hero-section">
+        <h1>Mini D3 Assignment— Circles on Click</h1>
+        <h3>Click anywhere on the canvas below to add a circle at the exact coordinates. The canvas keeps a maximum of 10 circles (oldest removed).</h3>
+    </header> 
+
+    <main class="visualization-section">
+    <section class="section">
+        <svg id="mini-stage"
+            viewBox="0 0 960 540"
+            preserveAspectRatio="xMidYMid slice"
+            aria-label="D3 interactive canvas for adding circles"
+            style="display:block; width:100%; height:auto; background:white; cursor:crosshair;">
+        </svg>
+    </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="circles.js" defer></script>
+
+</body>
+
+</html>
